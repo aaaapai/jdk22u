@@ -2245,6 +2245,7 @@ private:
   void xorb(Address dst, Register src);
   void xorb(Register dst, Address src);
   void xorw(Register dst, Register src);
+  void xorw(Register dst, Address src);
 
   void xorq(Register dst, Address src);
   void xorq(Address dst, int32_t imm32);
